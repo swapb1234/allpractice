@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url("https://webneel.com/daily/sites/default/files/images/daily/08-2018/1-nature-photography-spring-season-mumtazshamsee.jpg") ;
+        }     
+    </style>
+</head>
+<body>
+   Name <input type="text"><br><br>
+   password <input type="Password"><br><br>
+   checkbox <input type="checkbox"><br><br>
+   Date <input type="date"><br><br>
+   color <input type="color"><br><br>
+        <input type="submit"><br><br>
+   Email <input type="Email"><br><br>
+    <input type="reset"><br><br>
+   file <input type="file"><br><br>
+   Mobile <input type="Mobile"><br><br>
+   <input type="range"><br>
+   
+   <p>comp works!</p>
+<h1>firstname={{firstname|titlecase}}</h1>
+<h1>mobile={{Mobile}}</h1>
+<h3>Mobile No : {{personalObj.mobileNo}}</h3>
+<img [src]="" alt="no image">
+<h2>{{msg|lowercase}}</h2>
+<h3>Today's Date:{{todayDate|date:'long'}}</h3>
+<h2>price:{{price|currency:'INR'}}</h2>
+<button (click)="displayMessage()">Click Me</button> <br><br>
+</body>
+</html>
